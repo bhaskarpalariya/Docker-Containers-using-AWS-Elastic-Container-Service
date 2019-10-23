@@ -1,0 +1,7 @@
+FROM nginx
+
+# File Author / Maintainer
+
+MAINTAINER myuser "myemail@mydomain.com"
+
+COPY static-html-directory /usr/share/nginx/html
